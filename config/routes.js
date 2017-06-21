@@ -49,6 +49,43 @@ module.exports.routes = {
   'POST /create_student': 'StudentController.create',
   'GET /manage_students': 'StudentController.read',
   'POST /update_student': 'StudentController.update',
-  'POST /delete_student': 'StudentController.delete'
+  'POST /delete_student': 'StudentController.delete',
 
+  'POST /create_grade': 'GradeController.create',
+  'GET /manage_grades': 'GradeController.read',
+  'POST /update_grade': 'GradeController.update',
+  'POST /delete_grade': 'GradeController.delete',
+
+  'POST /create_class': 'ClassesController.create',
+  'GET /manage_classes': 'ClassesController.read',
+  'POST /update_class': 'ClassesController.update',
+  'POST /delete_class': 'ClassesController.delete',
+
+  'POST /create_major': 'MajorController.create',
+  'GET /manage_majors': 'MajorController.read',
+  'POST /update_major': 'MajorController.update',
+  'POST /delete_major': 'MajorController.delete',
+
+  'POST /create_assignment': 'AssignmentController.create',
+  'GET /manage_assignments': 'AssignmentController.read',
+  'POST /update_assignment': 'AssignmentController.update',
+  'POST /delete_assignment': 'AssignmentController.delete',
+
+  'POST /create_instructor': 'InstructorController.create',
+  'GET /manage_instructors': 'InstructorController.read',
+  'POST /update_instructor': 'InstructorController.update',
+  'POST /delete_instructor': 'InstructorController.delete',
+
+  'POST /create_majorClass': 'MajorClassController.create',
+  'GET /manage_majorClasses': 'MajorClassController.read',
+  'POST /update_majorClass': 'MajorClassController.update',
+  'POST /delete_majorClass': 'MajorClassController.delete',
+
+  'POST /create_studentClass': 'StudentClassController.create',
+  'GET /manage_studentClasses': 'StudentClassController.read',
+  'POST /update_studentClass': 'StudentClassController.update',
+  'POST /delete_studentClass': 'StudentClassController.delete'
+
+
+  // create_major:
 };

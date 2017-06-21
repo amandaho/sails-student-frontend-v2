@@ -6,6 +6,10 @@ table {
   margin-top: 10px;
 }
 
+.jumbotron{
+  text-align: center;
+}
+
 /* Customize container */
 @media (min-width: 600px) {
     .container {
